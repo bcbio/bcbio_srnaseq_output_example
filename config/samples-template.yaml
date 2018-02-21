@@ -1,0 +1,10 @@
+upload:
+  dir: ../final
+details:
+  - analysis: smallRNA-seq
+    algorithm:
+      adapters: ["TGGAATTCTCGG"]
+      aligner: star
+      species: hsa
+      expression_caller: [seqcluster, trna]
+    genome_build: hg19

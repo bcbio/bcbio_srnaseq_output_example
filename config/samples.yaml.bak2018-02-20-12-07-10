@@ -1,0 +1,64 @@
+details:
+- algorithm:
+    aligner: star
+    expression_caller:
+    - seqcluster
+    - trna
+    species: hsa
+  analysis: smallRNA-seq
+  description: ERR187665
+  files:
+  - ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR187/ERR187665/ERR187665.fastq.gz
+  genome_build: hg19
+  metadata:
+    country: NIGERIA
+    group: group2
+    sample: NA18487
+- algorithm:
+    aligner: star
+    expression_caller:
+    - seqcluster
+    - trna
+    species: hsa
+  analysis: smallRNA-seq
+  description: ERR187490
+  files:
+  - ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR187/ERR187490/ERR187490.fastq.gz
+  genome_build: hg19
+  metadata:
+    country: BRITISH
+    group: group1
+    sample: HG00251
+- algorithm:
+    aligner: star
+    expression_caller:
+    - seqcluster
+    - trna
+    species: hsa
+  analysis: smallRNA-seq
+  description: ERR187664
+  files:
+  - ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR187/ERR187664/ERR187664.fastq.gz
+  genome_build: hg19
+  metadata:
+    country: USA
+    group: group2
+    sample: NA12760
+- algorithm:
+    aligner: star
+    expression_caller:
+    - seqcluster
+    - trna
+    species: hsa
+  analysis: smallRNA-seq
+  description: ERR187494
+  files:
+  - ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR187/ERR187494/ERR187494.fastq.gz
+  genome_build: hg19
+  metadata:
+    country: FINLAND
+    group: group1
+    sample: HG00285
+fc_name: samples
+upload:
+  dir: ../final

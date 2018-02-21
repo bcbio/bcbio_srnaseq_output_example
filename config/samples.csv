@@ -1,0 +1,5 @@
+sampletitle,description,sample,country,group
+ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR187/ERR187490/ERR187490.fastq.gz,ERR187490,HG00251,BRITISH,group1
+ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR187/ERR187494/ERR187494.fastq.gz,ERR187494,HG00285,FINLAND,group1
+ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR187/ERR187664/ERR187664.fastq.gz,ERR187664,NA12760,USA,group2
+ftp://ftp.sra.ebi.ac.uk/vol1/fastq/ERR187/ERR187665/ERR187665.fastq.gz,ERR187665,NA18487,NIGERIA,group2
