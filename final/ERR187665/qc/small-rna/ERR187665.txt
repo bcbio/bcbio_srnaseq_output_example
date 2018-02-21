@@ -1,0 +1,5 @@
+	reads	sample	type
+3	5334289	ERR187665	aligned
+7	5000531	ERR187665	cleaned
+11	5000531	ERR187665	clusters
+15	4912489	ERR187665	meta-cluster

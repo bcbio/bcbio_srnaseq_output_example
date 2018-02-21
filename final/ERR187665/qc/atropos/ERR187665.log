@@ -1,0 +1,101 @@
+2018-02-20 12:10:02,280 INFO: This is Atropos 1.1.16 with Python 3.6.2
+2018-02-20 12:10:02,297 INFO: Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+=======
+Atropos
+=======
+
+Atropos version: 1.1.16
+Python version: 3.6.2
+Command line parameters: trim -a TGGAATTCTCGG --untrimmed-output=/n/scratch2/hsph_bioinformatic_core/lp113/geu_example/samples/work/trimmed/ERR187665/ERR187665.fragments.fastq.gz -o /n/scratch2/hsph_bioinformatic_core/lp113/geu_example/samples/work/bcbiotx/tmpyyZfhp/ERR187665.clean.fastq.gz -m 17 --overlap=8 -se /n/scratch2/hsph_bioinformatic_core/lp113/geu_example/samples/work/inputs/ERR187665/ERR187665.fastq.gz --too-short-output ERR187665
+
+Sample ID: ERR187665
+Input format: FASTQ, Read 1, w/ Qualities
+Input files:
+  /n/scratch2/hsph_bioinformatic_core/lp113/geu_example/samples/work/inputs/ERR187665/ERR187665.fastq.gz
+
+Start time: 2018-02-20T12:10:02.283374
+Wallclock time: 290.76 s (36 us/read; 1.69 M reads/minute)
+CPU time (main process): 229.16 s
+
+--------
+Trimming
+--------
+
+Reads                                    records     fraction
+----------------------------------- ------------ ------------
+Total reads processed:                 8,176,320
+Reads with adapters:                   8,075,701        98.8%
+Reads that were too short:             1,992,457        24.4%
+Reads written (passing filters):       8,176,320       100.0%
+
+Base pairs                                    bp     fraction
+----------------------------------- ------------ ------------
+Total bp processed:                  408,816,000
+Total bp written (filtered):         174,983,622        42.8%
+
+---------
+Adapter 1
+---------
+
+Sequence     Type       Length Trimmed (x)
+------------ ---------- ------ -----------
+TGGAATTCTCGG regular 3'     12   8,075,701
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A          18.2%
+  C          22.7%
+  G          21.0%
+  T          37.4%
+  none/other  0.8%
+
+Overview of removed sequences:
+length     count expect max.err error counts 
+                                0       1    
+------ --------- ------ ------- -------------
+     8    14,311  124.8       0 14311        
+     9    25,454   31.2       0 25368   86   
+    10    18,172    7.8       1 17895   277  
+    11    27,933    1.9       1 27549   384  
+    12    28,661    0.5       1 28322   339  
+    13    36,216    0.5       1 35719   497  
+    14    65,685    0.5       1 64662   1023 
+    15    71,263    0.5       1 70207   1056 
+    16   119,234    0.5       1 117335  1899 
+    17   275,732    0.5       1 273016  2716 
+    18   168,993    0.5       1 167026  1967 
+    19   112,935    0.5       1 111475  1460 
+    20   100,903    0.5       1 99393   1510 
+    21   157,726    0.5       1 155862  1864 
+    22   109,343    0.5       1 107456  1887 
+    23   168,553    0.5       1 166103  2450 
+    24   118,702    0.5       1 116715  1987 
+    25   157,921    0.5       1 155132  2789 
+    26   523,493    0.5       1 514984  8509 
+    27   930,035    0.5       1 914335  15700
+    28 1,401,482    0.5       1 1379315 22167
+    29   378,261    0.5       1 371353  6908 
+    30   236,055    0.5       1 232115  3940 
+    31   174,549    0.5       1 171492  3057 
+    32   363,442    0.5       1 358690  4752 
+    33   298,190    0.5       1 294139  4051 
+    34   206,958    0.5       1 204355  2603 
+    35   178,771    0.5       1 176892  1879 
+    36   343,251    0.5       1 339751  3500 
+    37   153,342    0.5       1 151688  1654 
+    38   143,946    0.5       1 142224  1722 
+    39   185,948    0.5       1 183811  2137 
+    40   170,351    0.5       1 168237  2114 
+    41   168,441    0.5       1 166081  2360 
+    42   143,567    0.5       1 141530  2037 
+    43   186,258    0.5       1 183333  2925 
+    44    35,299    0.5       1 34701   598  
+    45    10,188    0.5       1 10033   155  
+    46     2,785    0.5       1 2737    48   
+    47       713    0.5       1 676     37   
+    48       694    0.5       1 670     24   
+    49       631    0.5       1 599     32   
+    50    61,314    0.5       1 59017   2297 
+

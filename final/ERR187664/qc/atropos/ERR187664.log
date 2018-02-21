@@ -1,0 +1,87 @@
+2018-02-20 12:10:02,280 INFO: This is Atropos 1.1.16 with Python 3.6.2
+2018-02-20 12:10:02,298 INFO: Trimming 1 adapter with at most 10.0% errors in single-end mode ...
+=======
+Atropos
+=======
+
+Atropos version: 1.1.16
+Python version: 3.6.2
+Command line parameters: trim -a TGGAATTCTCGG --untrimmed-output=/n/scratch2/hsph_bioinformatic_core/lp113/geu_example/samples/work/trimmed/ERR187664/ERR187664.fragments.fastq.gz -o /n/scratch2/hsph_bioinformatic_core/lp113/geu_example/samples/work/bcbiotx/tmpGG6OJN/ERR187664.clean.fastq.gz -m 17 --overlap=8 -se /n/scratch2/hsph_bioinformatic_core/lp113/geu_example/samples/work/inputs/ERR187664/ERR187664.fastq.gz --too-short-output ERR187664
+
+Sample ID: ERR187664
+Input format: FASTQ, Read 1, w/ Qualities
+Input files:
+  /n/scratch2/hsph_bioinformatic_core/lp113/geu_example/samples/work/inputs/ERR187664/ERR187664.fastq.gz
+
+Start time: 2018-02-20T12:10:02.283707
+Wallclock time: 303.51 s (31 us/read; 1.92 M reads/minute)
+CPU time (main process): 215.07 s
+
+--------
+Trimming
+--------
+
+Reads                                    records     fraction
+----------------------------------- ------------ ------------
+Total reads processed:                 9,697,283
+Reads with adapters:                   4,334,146        44.7%
+Reads that were too short:               257,347         2.7%
+Reads written (passing filters):       9,697,283       100.0%
+
+Base pairs                                    bp     fraction
+----------------------------------- ------------ ------------
+Total bp processed:                  349,102,188
+Total bp written (filtered):         290,295,108        83.2%
+
+---------
+Adapter 1
+---------
+
+Sequence     Type       Length Trimmed (x)
+------------ ---------- ------ -----------
+TGGAATTCTCGG regular 3'     12   4,334,146
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A          17.0%
+  C          31.6%
+  G          18.4%
+  T          32.5%
+  none/other  0.5%
+
+Overview of removed sequences:
+length    count expect max.err error counts
+                               0      1    
+------ -------- ------ ------- ------------
+     8  293,609  148.0       0 293609      
+     9  360,882   37.0       0 359965 917  
+    10  324,002    9.2       1 320667 3335 
+    11  311,209    2.3       1 307626 3583 
+    12  449,128    0.6       1 444312 4816 
+    13  522,254    0.6       1 516571 5683 
+    14  656,520    0.6       1 649675 6845 
+    15  324,620    0.6       1 320940 3680 
+    16  291,223    0.6       1 288023 3200 
+    17  213,343    0.6       1 210975 2368 
+    18  199,081    0.6       1 196879 2202 
+    19  130,928    0.6       1 129543 1385 
+    20   80,967    0.6       1 80004  963  
+    21   55,160    0.6       1 54532  628  
+    22   40,068    0.6       1 39507  561  
+    23   17,623    0.6       1 17312  311  
+    24   11,816    0.6       1 11586  230  
+    25    8,198    0.6       1 8010   188  
+    26    6,225    0.6       1 6101   124  
+    27    5,000    0.6       1 4894   106  
+    28    3,663    0.6       1 3568   95   
+    29    3,036    0.6       1 2928   108  
+    30    1,383    0.6       1 1347   36   
+    31      426    0.6       1 409    17   
+    32      163    0.6       1 160    3    
+    33       97    0.6       1 90     7    
+    34      134    0.6       1 124    10   
+    35      110    0.6       1 103    7    
+    36   23,278    0.6       1 22741  537  
+

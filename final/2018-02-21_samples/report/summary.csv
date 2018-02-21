@@ -1,0 +1,5 @@
+sample_id,sample,country,group,batch,phenotype
+ERR187490,HG00251,BRITISH,group1,None,
+ERR187494,HG00285,FINLAND,group1,None,
+ERR187664,NA12760,USA,group2,None,
+ERR187665,NA18487,NIGERIA,group2,None,

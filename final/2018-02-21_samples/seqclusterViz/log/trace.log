@@ -1,0 +1,15 @@
+INFO - Run report
+INFO - reading sequeces
+INFO - create profile
+INFO - locus bigger > 500 nt, skipping: [[38000, u'chrM', 12415, 12961, u'-', 251]]
+INFO - locus bigger > 500 nt, skipping: [[37929, u'chrM', 5095, 12672, u'+', 10086]]
+INFO - locus bigger > 500 nt, skipping: [[38107, u'chrUn_gl000220', 113231, 118416, u'+', 21741], [38156, u'chrUn_gl000220', 157203, 161802, u'+', 18584]]
+INFO - locus bigger > 500 nt, skipping: [[37932, u'chrM', 14099, 14747, u'+', 369]]
+INFO - locus bigger > 500 nt, skipping: [[38092, u'chrUn_gl000220', 108914, 111121, u'+', 11064], [38141, u'chrUn_gl000220', 152886, 155093, u'+', 10871]]
+INFO - locus bigger > 500 nt, skipping: [[37928, u'chrM', 562, 5073, u'+', 14086]]
+INFO - locus bigger > 500 nt, skipping: [[37935, u'chrM', 15362, 16170, u'+', 395]]
+INFO - locus bigger > 500 nt, skipping: [[37931, u'chrM', 12854, 14069, u'+', 881]]
+INFO - locus bigger > 500 nt, skipping: [[38007, u'chrM', 14230, 14743, u'-', 502], [28204, u'chr5', 93905167, 93905240, u'-', 406]]
+INFO - create database
+INFO - Done. Download https://github.com/lpantano/seqclusterViz/archive/master.zip to browse the output.
+INFO - It took 0.658 minutes
